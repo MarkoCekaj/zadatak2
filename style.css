@@ -1,0 +1,520 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+body {
+  height: 800px;
+  width: 1400px;
+  border: 30px solid #0d0d0d;
+  background-image: url("./slike/The-iconic-view-of-the-Speicherstadt-district-Thinks-to-see-in-Hamburg-Places-to-visit-in-Germany-R3.jpg");
+  background-repeat: no-repeat;
+  background-size: 1450px 850px;
+  /*HOME PAGE*/
+}
+.navbar {
+  width: 1271px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  z-index: 1;
+  width: 1271px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 52px;
+  padding-left: 77px;
+  padding-top: 70px;
+}
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar-links {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding-right: 66px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.navbar-Deustchland {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  padding: 0 636px 198px 77px;
+  color: #ffffff;
+}
+
+.fa-bars {
+  color: #ffffff;
+}
+.main-content {
+  display: flex;
+}
+.main-willkommen {
+  width: 510px;
+  height: 138px;
+  margin: 198px 0 67px 75px;
+  text-align: left;
+}
+.main-willkommen p {
+  font-size: 60px;
+  color: #ffffff;
+  font-family: "Raleway";
+}
+.main-seeOurCities {
+  padding: 128px 0 128px 0;
+}
+.main-seeOurCities button {
+  height: 59px;
+  width: 270px;
+  border-radius: 10px;
+  background-color: #a2471e;
+  border: none;
+  font-size: 30px;
+  font-family: "Raleway";
+  color: #ffffff;
+  font-weight: 100;
+}
+/*.rectangle {
+  font-size: 20px;
+  width: 234px;
+  height: 75px;
+  border: none;
+  padding: 0 0 65px 67px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  opacity: 0.14901960784313725;
+}
+
+*/
+.rectangle img {
+  width: 234px;
+  height: 75px;
+}
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.languages {
+  padding-left: 1306px;
+  margin-top: -70px;
+}
+.languages button {
+  margin-bottom: 50px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  width: 23px;
+  height: 15px;
+  color: #ffffff;
+}
+
+/*ABOUT PAGE*/
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+.description {
+  display: flex;
+  width: 1000px;
+  height: 250px;
+
+  padding: 100px 0 0 50px;
+  margin-right: 0;
+}
+
+.description h1 {
+  font-size: 45px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+.description p {
+  font-weight: 100;
+  line-height: 20px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+.contact {
+  height: 500px;
+  width: 250px;
+  padding-left: 50px;
+}
+.contact h3 {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.contact-telephone-mail ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  width: 400px;
+  color: #ffffff;
+}
+.contact-social ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 370px 0 20px 200px;
+}
+.contact-social ul li {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/*GALLERY PAGE*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+.numbertext img {
+  width: 100%;
+  height: 100%;
+}
+.slideshow-container h1 {
+  font-size: 72px;
+  background-clip: border-box;
+  background: -webkit-linear-gradient(
+    rgb(0, 0, 0),
+    rgb(255, 0, 0),
+    rgb(255, 251, 0)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.city-name {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: #ffffff;
+  font-size: 20px;
+}
