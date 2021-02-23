@@ -222,9 +222,9 @@ body {
   color: #ffffff;
 }
 .navbar-Deustchland {
+  text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 25px;
-  padding: 0 636px 198px 77px;
   color: #ffffff;
 }
 
@@ -517,4 +517,103 @@ body {
   left: 16px;
   color: #ffffff;
   font-size: 20px;
+}
+/*cities page*/
+.cities-list-div {
+  width: 500px;
+  height: 800px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cities-list {
+  display: block;
+
+  width: 320px;
+}
+
+.cities-list li {
+  display: block;
+  height: 72px;
+  width: 320px;
+  background-color: #560fb3;
+  animation-name: animateIn;
+  animation-duration: 350ms;
+  animation-delay: calc(var(--animation-order) * 100ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+  align-items: center;
+}
+.cities-list li:nth-child(1) {
+  background-color: #000000;
+}
+.cities-list li:nth-child(2) {
+  background-color: #000000;
+}
+.cities-list li:nth-child(3) {
+  background-color: #ff0000;
+}
+.cities-list li:nth-child(4) {
+  background-color: #ff0000;
+}
+.cities-list li:nth-child(5) {
+  background-color: #ffcc00;
+}
+.cities-list li:nth-child(6) {
+  background-color: #ffcc00;
+}
+.cities-list li + li {
+  margin-top: 16px;
+}
+
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(-8px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+#cities-list-button {
+  margin-left: 50px;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #125688;
+  border: none;
+}
+.cities-list-description {
+  position: fixed;
+  width: 100px;
+  height: 800px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 200px;
+  margin-left: 500px;
+}
+.cities-list-description button {
+  margin-top: 25px;
+  height: 65px;
+}
+.cities-list-description-exp {
+  margin-top: 220px;
+  position: absolute;
+  margin-left: 700px;
+}
+.cities-list-description-exp p {
+  transition: 0.5s ease-in;
+  color: #ffffff;
+  font-size: 12px;
+  background-color: blue;
+  height: 75px;
+  width: 550px;
 }
